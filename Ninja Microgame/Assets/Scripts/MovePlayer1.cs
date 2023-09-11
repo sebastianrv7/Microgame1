@@ -11,7 +11,7 @@ public class MovePlayer1 : MonoBehaviour
     private float HorizontalMove = 0f;
     public float SpeedMove;
     [Range(0f,0.3f)]
-    public float SmoothMove;
+    private float SmoothMove = 0.3f;
     private Vector3 Speed = Vector3.zero;
     private bool LookRight = true;
 
